@@ -1,0 +1,59 @@
+@charset "UTF-8";body{
+	background-image:url("https://th.bing.com/th/id/OIP.f-h93_w8z43JNtb1-_mfbgHaDt?rs=1&pid=ImgDetMain");
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+	
+}
+.login-container{
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+form{
+	display:absolute;
+	border-radius: 8px;
+	border:1px solid aqua;
+	background:rgba(225,225,225,0.2);
+	backdrop-filter:blur(5px);
+	padding:8px;
+	box-shadow:2px 4px 8px black;
+	width:60vh;
+	
+}
+.input-group{
+	display:grid;
+	margin:8px
+
+}
+input{
+	margin:8px;
+	height:4vh;
+	width:40vh;
+	border:1.5px solid aqua;
+	border-radius:4px;
+	outline:none;
+	background-color:transparent;
+	transition: all 0.5s ease;
+}
+input:hover{
+    box-shadow: 0 0 4px 4px #80ffff;
+    border-radius:4px;
+}
+button{
+	background-color:#00ffff;
+	font-weight:bold;
+	border-radius:8px;
+	height:5vh;
+	width:28vh;
+	box-shadow:2px 4px 8px #808080;
+	margin:10px;
+	transition: all 0.5s ease;
+}
+button:hover{
+	border-radius:8px;
+	background-color:#80ffff;
+}
+button:active{
+	background-color:#004040;
+}
